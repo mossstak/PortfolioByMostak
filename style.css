@@ -1,0 +1,15 @@
+:root {
+    --pColour: #994646;
+    --h1Colour: #468299;
+}
+
+
+*{    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.avatar {
+    width: 300px;
+    height: 300px;
+    border-radius: 25%;
+  }
