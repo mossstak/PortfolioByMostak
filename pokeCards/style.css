@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flexbox-container{
+    margin: 20px 0 0 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.pokeHeader{
+    margin: 30px 0 0 0;
+    font-family: Rubik;
+    text-align: center;
+}
+
+.flexbox-item{
+    border-radius: 25px;
+    width: 220px;
+    height: 200px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: #dfdfdfdf;
+}
+
+span{
+    font-family: Rubik;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    height: 90px;
+    width: 90px;
+    display: flexbox;
+}
+
+.sameline{
+    display: inline-block;
+}
